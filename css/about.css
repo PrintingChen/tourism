@@ -1,0 +1,246 @@
+/*header*/
+.head{
+	width: 100%;
+	height: 71px;
+	background: #333;
+	overflow: hidden;
+}
+.head .center{
+	width: 1263px;
+	height: 71px;
+	line-height: 71px;
+	margin: 0 auto;
+}
+.head .center .logo{
+	float: left;
+	width: 240px;
+	height: 71px;
+	line-height: 71px;
+}
+.head .center .logo a{
+	display: block;
+	border: none;
+	height: 100%;
+}
+.head .center .nav{
+	float: right;
+}
+.head .center .nav ul li{
+	float: left;
+	padding: 0 30px;
+	text-align: center;
+}
+.head .center .nav ul li:hover{
+	background: #ffb40b;
+	color: #afa5a5;
+	transition: all .5s linear;
+}
+.head .center .nav ul li a{
+	color: #fff;
+	display: inline-block;
+} 
+
+.headline{
+	max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+}
+.headline img{
+    display: block;
+    max-width: 100%;
+}
+.headline hgroup {
+    position: absolute;
+    top: 45%;
+    left: 18%;
+}
+.headline h2 {
+    color: #eee;
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+.headline h3 {
+    color: #eee;
+    letter-spacing: 1px;
+    font-size: 24px;
+}
+/*header*/
+/*list*/
+.container{
+	width: 1263px;
+	margin: 30px auto;
+	overflow: hidden;
+}
+.container .list{
+	float: left;
+	width: 71%;
+}
+.container .list h2{
+	border-bottom: 1px dashed #998;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+	font-size: 30px;
+	padding-bottom: 15px;
+}
+.container .list p{
+	color: #666;
+	font-size: 20px;
+	font-weight: 600;
+	margin: 20px 0;
+	line-height: 2;
+}
+.container .list ul li{
+	padding: 5px 0;
+	font-size: 20px;
+	color: #666;
+}
+/*list*/
+/*aside*/
+.container .aside{
+	float: right;
+	width: 28%;
+}
+.container .aside .recommend{
+	margin: 0 0 10px;
+}
+.container .aside .recommend h2{
+    font-weight: normal;
+    color: #666;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    border-bottom: 1px solid #eee;
+    text-indent: 10px;
+    text-align: left;
+    background-color: #fafafa;
+}
+.container .aside .recommend .tag{
+	text-align: center;
+	padding: 10px 0;
+}
+.container .aside .recommend .tag ul li{
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	background-color: #ddd;
+	margin: 2px 0;
+	text-align: left;
+	text-indent: 8px;
+}
+.container .aside .recommend .tag ul li a{
+	display: block;
+	color: #666;
+	transition: all .4s linear;
+}
+.container .aside .recommend .tag ul li a:hover{
+	color: #fff;
+	background-color: #008000;
+}
+/*aside*/
+/*hot*/
+.aside .hot h2{
+	height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #666;
+    text-indent: 10px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+.aside .hot .figure{
+	padding: 10px 0;
+	text-align: center;
+}
+.aside .hot .figure ul li{    
+	display: inline-block;
+	color: #666;
+	padding: 4px;
+}
+.aside .hot .figure ul li p{
+	margin: 4px 0;
+}
+.aside .hot .figure ul li:hover{
+	box-shadow: 0 0 10px #4D68B7;
+}
+/*hot*/
+/*treasure*/
+.aside .treasure{
+	border: 1px solid #eee;
+    margin: 0 0 10px;
+    background-color: #fff;
+}
+.aside .treasure h2{
+	height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #666;
+    text-indent: 10px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+.aside .treasure .box{
+	text-align: center;
+	padding: 10px 0;
+}
+.aside .treasure .box a{
+	display: inline-block;
+    background-color: #eee;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 35px;
+    text-align: left;
+    margin: 3px 0;
+    color: #999;
+}
+.aside .treasure .box a.trea1{
+	background: #eee url(../img/trea1.png) no-repeat 10px center;
+}
+.aside .treasure .box a.trea2{
+	background: #eee url(../img/trea2.png) no-repeat 10px center;
+}
+.aside .treasure .box a.trea3{
+	background: #eee url(../img/trea3.png) no-repeat 10px center;
+}
+.aside .treasure .box a.trea4{
+	background: #eee url(../img/trea4.png) no-repeat 10px center;
+}
+/*treasure*/
+/*footer*/
+.footer{
+	width: 100%;
+	height: 240px;
+	background-color: #222;
+}
+.footer .align{
+	max-width: 1263px;
+	margin: 0 auto;
+	color: #fff;
+}
+.footer .align .col{
+	float: left;
+	width: 33%;
+}
+.footer .align .col h2{
+	font-size: 22px;
+    font-weight: 500;
+    line-height: 50px;
+    padding: 5px 0;
+    text-indent: 30px;
+}
+.footer .align .col ul li a{
+	display: block;
+	line-height: 30px;
+	color: #8e8282;
+	text-indent: 30px;
+}
+/*footer

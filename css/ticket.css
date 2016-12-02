@@ -1,0 +1,392 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body,html{
+	width:100%;
+	height:100%;
+	background-color: #f5f5f5;
+	font-family:"Microsoft yahei";
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+}
+.head{
+	width: 100%;
+	height: 71px;
+	background: #333;
+	overflow: hidden;
+}
+.head .center{
+	width: 1263px;
+	height: 71px;
+	line-height: 71px;
+	margin: 0 auto;
+}
+.head .center .logo{
+	float: left;
+	width: 240px;
+	height: 71px;
+	line-height: 71px;
+}
+.head .center .logo a{
+	display: block;
+	border: none;
+	height: 100%;
+}
+.head .center .nav{
+	float: right;
+}
+.head .center .nav ul li{
+	float: left;
+	padding: 0 30px;
+	text-align: center;
+}
+.head .center .nav ul li:hover{
+	background: #ffb40b;
+	color: #afa5a5;
+	transition: all .5s linear;
+}
+.head .center .nav ul li a{
+	color: #fff;
+	display: inline-block;
+}
+#headline{
+    max-width:1920px;
+    margin:0 auto;
+    position:relative;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+#headline hgroup{
+    position:absolute;
+    top:45%;
+    left:18%;
+}
+#headline h2{
+    color:#eee;
+    font-size:45px;
+    letter-spacing:1px;
+}
+#headline h3{
+    color:#eee;
+    letter-spacing:1px;
+    font-size:26px;
+}
+#container{
+    max-width: 1263px;
+    margin: 30px auto;
+}
+#container .sidebar{
+    width:28%;
+    float:right;
+}
+#container .recommend {
+    border:1px solid #eee;
+    margin:0 0 10px;
+    background-color:#fff;
+}
+#container .sidebar h2{
+    height:40px;
+    line-height:40px;
+    font-size:20px;
+    font-weight:normal;
+    letter-spacing:1px;
+    color:#666;
+    text-indent:10px;
+    background-color:#fafafa;
+    border-bottom:1px solid #eee;
+    text-align:left;
+}
+#container .tag{
+    text-align:center;
+    padding:10px 0;
+}
+#container .tag li{
+    display:inline-block;
+    background-color:#ddd;
+    width:100px;
+    height:35px;
+    line-height:35px;
+    text-indent:8px;
+    text-align:left;
+    margin:2px 0;
+}
+#container .tag a{
+    display:block;
+    color:#666;
+	transition: all .4s linear;
+}
+#container .tag a:hover{
+    color: #fff;
+    background-color: #458B00;
+}
+#container .hot{
+    border:1px solid #eee;
+    margin:0 0 10px;
+    text-align:center;
+    background-color:#fff;
+}
+#container .figure{
+    padding:10px 0;
+}
+#container .hot figure{
+    display:inline-block;
+    color:#666;
+    padding:4px;
+	border:1px solid #fff;
+	cursor:pointer;
+    margin-bottom: 2px;
+}
+#container .hot figure:hover{
+	/*border:1px solid #458B00;*/
+	box-shadow: 0 0 10px #4D68B7;
+}
+figcaption{
+	padding:5px 0px;
+}
+#container .treasure{
+    border:1px solid #eee;
+    margin:0 0 10px;
+    background-color:#fff;
+}
+#container .box{
+    text-align:center;
+    padding:10px 0;
+}
+#container .box a.trea1{
+    background:#eee url("../img/trea1.png") no-repeat 10px center;
+}
+#container .box a.trea2{
+    background:#eee url("../img/trea2.png") no-repeat 10px center;
+}
+#container .box a.trea3{
+    background:#eee url("../img/trea3.png") no-repeat 10px center;
+}
+#container .box a.trea4{
+    background:#eee url("../img/trea4.png") no-repeat 10px center;
+}
+#container .box a{
+    display:inline-block;
+    background-color:#eee;
+    width:150px;
+    height:40px;
+    line-height:40px;
+    text-indent:35px;
+    text-align:left;
+    margin:3px 0;
+    color:#999;
+}
+.ticket{
+    color:#666;
+}
+.list {
+    width:71%;
+    float:left;
+}
+.list h2{
+    height:40px;
+    line-height:40px;
+    font-size:30px;
+    font-weight:normal;
+    border-bottom:1px dashed #999;
+    padding:0 0 15px 0;
+    color:#666;
+}
+.ticket .type{
+    font-size:20px;
+    margin:20px 0 10px 0;
+    border:none;
+	cursor:pointer;
+}
+.ticket .type mark{
+    color:#fff;
+    background-color:#458B00;
+    padding:5px 8px;
+    border-radius:4px;
+    margin:0 10px 0 16px;
+}
+.ticket .left{
+    width:43%;
+    display:inline-block;
+}
+.ticket .form{
+    font-size:20px;
+    border:none;
+}
+.ticket .form p{
+    line-height:3;
+    font-size:20px;
+}
+label{
+    cursor: default;
+}
+.ticket .form input{
+    width:250px;
+    height:30px;
+    border:1px solid #ccc;
+    background-color:#fff;
+    border-radius:4px;
+    padding:5px;
+    font-size:18px;
+    color:#666;
+    margin:0 0 0 16px;
+}
+.ticket .right{
+    width:43%;
+    display:inline-block;
+}
+.ticket .button{
+    width:9%;
+    display:inline-block;
+}
+.ticket .submit {
+    display:inline-block;
+    width:90px;
+    height:90px;
+    line-height:90px;
+    border-radius:4px;
+    background-color:#f60;
+    color:#fff;
+    font-size:20px;
+    text-align:center;
+    border:none;
+    cursor:pointer;
+    position:relative;
+    top:-28px;
+}
+.ticket .new{
+    margin:20px 0 0 0;
+    font-size:20px;
+}
+.ticket .new ul{
+    margin: 20px 0 0 0;
+}
+.ticket .new li:first-child{
+    padding-left:0;
+}
+.ticket .new li{
+    display:inline-block;
+    padding:5px 10px;
+}
+.ticket table{
+    width:100%;
+    border-collapse:collapse;
+    margin:20px 0 0 0;
+    border:1px solid #ddd;
+}
+thead{
+    display:table-header-group;
+    vertical-align:middle;
+    border-color:inherit;
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.ticket table th{
+    height:50px;
+    line-height:50px;
+    border-bottom:1px solid #ddd;
+    font-weight:normal;
+}
+tbody{
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.ticket table tr:nth-child(2n){
+    background-color:#fafafa;
+}
+.ticket table td{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.ticket .price{
+    color:#f60;
+}
+.ticket .reserve{
+    display:inline-block;
+    width:80px;
+    height:35px;
+    line-height:35px;
+    border-radius:4px;
+    background-color:#f60;
+    color:#fff;
+    font-size:20px;
+    text-align:center;
+}
+.ticket table tr:hover{
+    background-color:#eee;
+}
+#footer {
+    background-color:#222;
+    clear:both;
+    position:relative;
+    top:20px;
+}
+#footer .top{
+    max-width:1263px;
+    height:280px;
+    margin:0 auto;
+    text-align:center;
+}
+#footer .block{
+    width:33.33%;
+    display:inline-block;
+    color:#ccc;
+    text-align:left;
+    vertical-align:top;
+    display:block;
+    float:left;
+}
+#footer h2{
+    font-weight:normal;
+    padding:20px 0 0 20px;
+    font-size:24px;
+    color: #fff;
+}
+#footer hr{
+    width:90%;
+    border:1px dashed #333;
+}
+#footer ul{
+    color:#666;
+    font-size:18px;
+    text-indent:20px;
+    line-height:2;
+}
+#footer ul li{
+	color: #8e8282;
+}
+.clearfix:after{
+    content:".";
+    height:0;
+    visibility:hidden;
+    display:block;
+    clear:both;
+}
+#footer .version{
+    color: #777;
+    text-align: center;
+    padding: 10px 0;
+}
+.sm-visible{
+    display: none;
+}
+#footer .bottom{
+    padding:15px 0;
+    text-align:center;
+    color:#8e8282;
+    background-color:#000;
+    border-top:1px solid #444;
+}
